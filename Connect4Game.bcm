@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/Connect 4/C0.bcc" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.seesContext#("/>
+    <org.eventb.core.scInternalContext name="C0">
+        <org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="ROW_CNT=6" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="COL_CNT=7" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#-" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="WIN_CNT=4" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#\/" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" name="ROW_CNT" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" name="COL_CNT" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#)" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.scCarrierSet name="FIELD" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#+" org.eventb.core.type="ℙ(FIELD)"/>
+        <org.eventb.core.scConstant de.prob.symbolic.symbolicAttribute="false" name="WIN_CNT" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#." org.eventb.core.type="ℤ"/>
+        <org.eventb.core.scCarrierSet name="COL" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#*" org.eventb.core.type="ℙ(COL)"/>
+        <org.eventb.core.scCarrierSet name="ROW" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(ROW)"/>
+    </org.eventb.core.scInternalContext>
+    <org.eventb.core.scInvariant name="C1" org.eventb.core.label="inv1" org.eventb.core.predicate="row∈1 ‥ ROW_CNT ⇸ BOOL" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#*" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scInvariant name="C2" org.eventb.core.label="inv2" org.eventb.core.predicate="col∈1 ‥ COL_CNT ⇸ row" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#," org.eventb.core.theorem="false"/>
+    <org.eventb.core.scVariable name="col" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.variable#+" org.eventb.core.type="ℙ(ℤ×(ℤ×BOOL))"/>
+    <org.eventb.core.scVariable name="row" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.variable#)" org.eventb.core.type="ℙ(ℤ×BOOL)"/>
+    <org.eventb.core.scEvent name="rox" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'">
+        <org.eventb.core.scAction name="'" org.eventb.core.assignment="col,row :∣ ⊤" org.eventb.core.label="GEN" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
+    </org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>
