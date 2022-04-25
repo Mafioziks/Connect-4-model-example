@@ -1,43 +1,160 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="4">
-    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="4">
-        <org.eventb.core.poIdentifier name="FIELD" org.eventb.core.type="ℙ(FIELD)"/>
+<org.eventb.core.poFile org.eventb.core.poStamp="7">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="6">
+        <org.eventb.core.poIdentifier name="PLAYERS" org.eventb.core.type="ℙ(PLAYERS)"/>
         <org.eventb.core.poIdentifier name="COL" org.eventb.core.type="ℙ(COL)"/>
         <org.eventb.core.poIdentifier name="ROW" org.eventb.core.type="ℙ(ROW)"/>
+        <org.eventb.core.poIdentifier name="COLORS" org.eventb.core.type="ℙ(COLORS)"/>
+        <org.eventb.core.poIdentifier name="BLUE" org.eventb.core.type="COLORS"/>
         <org.eventb.core.poIdentifier name="ROW_CNT" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="PLAYER_1" org.eventb.core.type="PLAYERS"/>
+        <org.eventb.core.poIdentifier name="PLAYER_2" org.eventb.core.type="PLAYERS"/>
         <org.eventb.core.poIdentifier name="COL_CNT" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="RED" org.eventb.core.type="COLORS"/>
         <org.eventb.core.poIdentifier name="WIN_CNT" org.eventb.core.type="ℤ"/>
-        <org.eventb.core.poPredicate name="WIN_CNU" org.eventb.core.predicate="ROW_CNT=6" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#,"/>
-        <org.eventb.core.poPredicate name="WIN_CNV" org.eventb.core.predicate="COL_CNT=7" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#-"/>
-        <org.eventb.core.poPredicate name="WIN_CNW" org.eventb.core.predicate="WIN_CNT=4" org.eventb.core.source="/Connect 4/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#\/"/>
+        <org.eventb.core.poIdentifier name="EMPTY" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.poPredicate name="PLAYER_3" org.eventb.core.predicate="ROW_CNT=6" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#,"/>
+        <org.eventb.core.poPredicate name="PLAYER_4" org.eventb.core.predicate="COL_CNT=7" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#-"/>
+        <org.eventb.core.poPredicate name="PLAYER_5" org.eventb.core.predicate="WIN_CNT=4" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#\/"/>
+        <org.eventb.core.poPredicate name="PLAYER_6" org.eventb.core.predicate="finite(PLAYERS)" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#_VRQpkMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PLAYER_7" org.eventb.core.predicate="partition(PLAYERS,{PLAYER_1},{PLAYER_2})" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#_VRRQoMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PLAYER_8" org.eventb.core.predicate="partition(COLORS,{EMPTY},{RED},{BLUE})" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#_VRRQocSnEeyX_5VAW912xQ"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="4">
-        <org.eventb.core.poIdentifier name="col" org.eventb.core.type="ℙ(ℤ×(ℤ×BOOL))"/>
-        <org.eventb.core.poIdentifier name="row" org.eventb.core.type="ℙ(ℤ×BOOL)"/>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="6">
+        <org.eventb.core.poIdentifier name="winner" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.poIdentifier name="col" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="row" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
+        <org.eventb.core.poIdentifier name="win" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="current_player" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.poIdentifier name="field" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.poIdentifier name="previous_player" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.poIdentifier name="fieldcell" org.eventb.core.type="ℤ×ℤ"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="4">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYProx"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="row'∈1 ‥ ROW_CNT ⇸ BOOL" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#*"/>
-        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
-        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#*"/>
-        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+    <org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYPprevious_playes"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1 ‥ ROW_CNT=1 ‥ ROW_CNT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="4">
-        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYProx"/>
-        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="col'∈1 ‥ COL_CNT ⇸ row'" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#,"/>
-        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
-        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#,"/>
-        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
-        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+    <org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYPprevious_playes"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1 ‥ COL_CNT=1 ‥ COL_CNT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#,"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#,"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
     </org.eventb.core.poSequent>
-    <org.eventb.core.poPredicateSet name="EVTIDENTrox" org.eventb.core.parentSet="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="4">
-        <org.eventb.core.poIdentifier name="col'" org.eventb.core.type="ℙ(ℤ×(ℤ×BOOL))"/>
-        <org.eventb.core.poIdentifier name="row'" org.eventb.core.type="ℙ(ℤ×BOOL)"/>
+    <org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYPprevious_playes"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1 ‥ COL_CNT × 1 ‥ ROW_CNT × {EMPTY}∈1 ‥ COL_CNT × 1 ‥ ROW_CNT → COLORS" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WznNIMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WznNIMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#INITIALISATION\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/inv/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYPprevious_playes"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1 ↦ 1∈1 ‥ COL_CNT × 1 ‥ ROW_CNT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WznNIcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WznNIcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#INITIALISATION\/inv\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/invField/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYPprevious_playes"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1 ‥ COL_CNT × 1 ‥ ROW_CNT=1 ‥ COL_CNT × 1 ‥ ROW_CNT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_Wzn0MMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_Wzn0MMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#INITIALISATION\/invField\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/invPlayerChange/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="7">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYPprevious_playes"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="RED≠BLUE" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzppYcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzppYcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#INITIALISATION\/invPlayerChange\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTprevious_playes" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="board'" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
+        <org.eventb.core.poIdentifier name="col'" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="previous_player'" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.poIdentifier name="win'" org.eventb.core.type="BOOL"/>
+        <org.eventb.core.poIdentifier name="row'" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="field'" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.poIdentifier name="fieldcell'" org.eventb.core.type="ℤ×ℤ"/>
+        <org.eventb.core.poIdentifier name="current_player'" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.poIdentifier name="winner'" org.eventb.core.type="COLORS"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="EVTALLHYProx" org.eventb.core.parentSet="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTIDENTrox" org.eventb.core.poStamp="4"/>
-    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Connect 4/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="4">
-        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="row∈1 ‥ ROW_CNT ⇸ BOOL" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#*"/>
-        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="col∈1 ‥ COL_CNT ⇸ row" org.eventb.core.source="/Connect 4/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#,"/>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPprevious_playes" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTIDENTprevious_playes" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poSequent name="add_token/grdHaveEmptyPlace/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet("/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="x ↦ 1∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzt60cSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzt60cSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet("/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="add_token/grdPlaceEmpty/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet)"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="x ↦ y∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzuh4MSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzuh4MSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet)"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="add_token/grdLastEmptyRow/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet*"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="y+1&gt;ROW_CNT∨(x ↦ y+1∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS)" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzuh4cSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzuh4cSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet*"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="add_token/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYPprevious_playet"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="board{x ↦ y ↦ current_player}∈col × row → COLORS" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WznNIMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WznNIMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#add_token\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="add_token/invPlayerChange/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTALLHYPprevious_playet"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="previous_player≠current_player" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzppYcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzppYcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poSequent#add_token\/invPlayerChange\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTprevious_playet" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="board'" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
+        <org.eventb.core.poIdentifier name="previous_player'" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.poIdentifier name="y" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="current_player'" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.poIdentifier name="x" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPprevious_playet(" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTIDENTprevious_playet" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="x∈col" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_WztTwcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="y∈row" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzt60MSnEeyX_5VAW912xQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPprevious_playet)" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet(" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="board(x ↦ 1)=EMPTY" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzt60cSnEeyX_5VAW912xQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTHYPprevious_playet*" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet)" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="board(x ↦ y)=EMPTY" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzuh4MSnEeyX_5VAW912xQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPprevious_playet" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#EVTHYPprevious_playet*" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="y+1&gt;ROW_CNT∨board(x ↦ y+1)≠EMPTY" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.event#_WzsFocSnEeyX_5VAW912xQ|org.eventb.core.guard#_Wzuh4cSnEeyX_5VAW912xQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Connect-4-model-example/Connect4Game.bpo|org.eventb.core.poFile#Connect4Game|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="6">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="row=1 ‥ ROW_CNT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#*"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="col=1 ‥ COL_CNT" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#,"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="win∈BOOL" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzmmEMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="board∈col × row → COLORS" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WznNIMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="fieldcell∈col × row" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WznNIcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="field=col × row" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_Wzn0MMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="winner∈COLORS" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzobQMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="current_player∈COLORS" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzobQcSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD8" org.eventb.core.predicate="previous_player∈COLORS" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzppYMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="current_player≠previous_player" org.eventb.core.source="/Connect-4-model-example/Connect4Game.bum|org.eventb.core.machineFile#Connect4Game|org.eventb.core.invariant#_WzppYcSnEeyX_5VAW912xQ"/>
     </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>

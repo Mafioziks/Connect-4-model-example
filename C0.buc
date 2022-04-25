@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" version="3">
-    <org.eventb.core.carrierSet name="'" org.eventb.core.identifier="ROW"/>
-    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="(" org.eventb.core.identifier="ROW_CNT"/>
-    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name=")" org.eventb.core.identifier="COL_CNT"/>
-    <org.eventb.core.carrierSet name="*" org.eventb.core.identifier="COL"/>
-    <org.eventb.core.carrierSet name="+" org.eventb.core.identifier="FIELD"/>
-    <org.eventb.core.axiom name="," org.eventb.core.label="axm1" org.eventb.core.predicate="ROW_CNT = 6"/>
-    <org.eventb.core.axiom name="-" org.eventb.core.label="axm2" org.eventb.core.predicate="COL_CNT = 7"/>
-    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="." org.eventb.core.identifier="WIN_CNT"/>
-    <org.eventb.core.axiom name="/" org.eventb.core.label="axm3" org.eventb.core.predicate="WIN_CNT = 4"/>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1650898350725" org.eventb.texttools.text_representation="context C0&#10;&#10;sets ROW COL PLAYERS COLORS&#10;&#10;constants ROW_CNT COL_CNT WIN_CNT PLAYER_1 PLAYER_2 BLUE RED EMPTY&#10;&#10;axioms&#10;  @axm1 ROW_CNT = 6&#10;  @axm2 COL_CNT = 7&#10;  @axm3 WIN_CNT = 4&#10;  @axm6 finite(PLAYERS)&#10;  @axm7 partition(PLAYERS, {PLAYER_1}, {PLAYER_2})&#10;  @axm8 partition(COLORS, {EMPTY}, {RED}, {BLUE})&#10;end&#10;" version="3">
+    <org.eventb.core.carrierSet name="'" org.eventb.core.generated="false" org.eventb.core.identifier="ROW"/>
+    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="(" org.eventb.core.generated="false" org.eventb.core.identifier="ROW_CNT"/>
+    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name=")" org.eventb.core.generated="false" org.eventb.core.identifier="COL_CNT"/>
+    <org.eventb.core.carrierSet name="*" org.eventb.core.generated="false" org.eventb.core.identifier="COL"/>
+    <org.eventb.core.axiom name="," org.eventb.core.generated="false" org.eventb.core.label="axm1" org.eventb.core.predicate="ROW_CNT = 6"/>
+    <org.eventb.core.axiom name="-" org.eventb.core.generated="false" org.eventb.core.label="axm2" org.eventb.core.predicate="COL_CNT = 7"/>
+    <org.eventb.core.constant de.prob.symbolic.symbolicAttribute="false" name="." org.eventb.core.generated="false" org.eventb.core.identifier="WIN_CNT"/>
+    <org.eventb.core.axiom name="/" org.eventb.core.generated="false" org.eventb.core.label="axm3" org.eventb.core.predicate="WIN_CNT = 4"/>
+    <org.eventb.core.carrierSet name="_VRONUMSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.identifier="PLAYERS"/>
+    <org.eventb.core.carrierSet name="_VRONUcSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.identifier="COLORS"/>
+    <org.eventb.core.constant name="_VRO0YMSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.identifier="PLAYER_1"/>
+    <org.eventb.core.constant name="_VRO0YcSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.identifier="PLAYER_2"/>
+    <org.eventb.core.constant name="_VRPbcMSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.identifier="BLUE"/>
+    <org.eventb.core.constant name="_VRQCgMSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.identifier="RED"/>
+    <org.eventb.core.constant name="_VRQCgcSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.identifier="EMPTY"/>
+    <org.eventb.core.axiom name="_VRQpkMSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.label="axm6" org.eventb.core.predicate="finite(PLAYERS)"/>
+    <org.eventb.core.axiom name="_VRRQoMSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.label="axm7" org.eventb.core.predicate="partition(PLAYERS, {PLAYER_1}, {PLAYER_2})"/>
+    <org.eventb.core.axiom name="_VRRQocSnEeyX_5VAW912xQ" org.eventb.core.generated="false" org.eventb.core.label="axm8" org.eventb.core.predicate="partition(COLORS, {EMPTY}, {RED}, {BLUE})"/>
 </org.eventb.core.contextFile>

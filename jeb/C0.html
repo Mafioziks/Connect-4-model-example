@@ -1,0 +1,150 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<title>C0</title>
+<link rel='stylesheet' type='text/css' href='jeb.css'>
+</head>
+<body onload='jeb.ui.initContextPage()'>
+<center><font size='5'>Context: <i>C0</i></font></center>
+<table width='100%'><tr>
+<td width='5%'><b>Extends</b>:</td>
+<td>
+</td>
+<td width='15%'><input type='checkbox' id='jeb.ui.CODE_TIP_DISPLAY' onclick='jeb.ui.update(this.id)'> Show code tip </td>
+<td width='5%'><a href='index.html'>Home</a></td>
+</tr></table>
+<table width='100%' cellpadding='3' cellspacing='3'>
+<tr style='background-color:#f0f0f0'>
+<td width='1%'></td>
+<td width='10%' align='center'><b>Set</b></td>
+<td align='center'><b>Value</b></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>ROW</td>
+<td class='formula' id='$cst.ROW'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>COL</td>
+<td class='formula' id='$cst.COL'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>PLAYERS</td>
+<td class='formula' id='$cst.PLAYERS'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>COLORS</td>
+<td class='formula' id='$cst.COLORS'></td>
+</tr>
+</table>
+<table width='100%' cellpadding='3' cellspacing='3'>
+<tr style='background-color:#f0f0f0'>
+<td width='1%'></td>
+<td width='10%' align='center'><b>Constant</b></td>
+<td align='center'><b>Value</b></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>ROW_CNT</td>
+<td class='formula' id='$cst.ROW_CNT'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>COL_CNT</td>
+<td class='formula' id='$cst.COL_CNT'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>WIN_CNT</td>
+<td class='formula' id='$cst.WIN_CNT'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>PLAYER_1</td>
+<td class='formula' id='$cst.PLAYER_1'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>PLAYER_2</td>
+<td class='formula' id='$cst.PLAYER_2'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>BLUE</td>
+<td class='formula' id='$cst.BLUE'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>RED</td>
+<td class='formula' id='$cst.RED'></td>
+</tr>
+<tr>
+<td></td>
+<td class='labelDotted'>EMPTY</td>
+<td class='formula' id='$cst.EMPTY'></td>
+</tr>
+</table>
+
+<table width='100%' cellpadding='3' cellspacing='3'>
+<tr>
+<td></td>
+<td><input class='middle' type='button' id='jeb.ui.axiomCheckbox' value='Check Axiom' onclick='jeb.scheduler.checkAxioms()'></td>
+<td><input class='middle' type='button' value='Clear Result' onclick='jeb.scheduler.clearAxiomsEvaluation()'></td>
+<td></td>
+</tr>
+<tr style='background-color:#f0f0f0'>
+<td name='axiomCheckbox' width='1%'><input type='checkbox' id='jeb.ui.AXIOMS_CHECKED' onclick='jeb.ui.update(this.id)'></td>
+<td width='10%' align='center'><b>Axiom</b></td>
+<td align='center'><b>Predicate</b></td>
+<td align='center'><b>Value</b></td>
+</tr>
+<tr>
+<td name='axiomCheckbox'><input type='checkbox'></td>
+<td class='labelDotted'>axm1</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $axm.a1)' onmouseout='jeb.ui.hideTip(event)'>ROW_CNT=6</td>
+<td class='formula' id='$axm.a1' align='center'></td>
+</tr>
+<tr>
+<td name='axiomCheckbox'><input type='checkbox'></td>
+<td class='labelDotted'>axm2</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $axm.a2)' onmouseout='jeb.ui.hideTip(event)'>COL_CNT=7</td>
+<td class='formula' id='$axm.a2' align='center'></td>
+</tr>
+<tr>
+<td name='axiomCheckbox'><input type='checkbox'></td>
+<td class='labelDotted'>axm3</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $axm.a3)' onmouseout='jeb.ui.hideTip(event)'>WIN_CNT=4</td>
+<td class='formula' id='$axm.a3' align='center'></td>
+</tr>
+<tr>
+<td name='axiomCheckbox'><input type='checkbox'></td>
+<td class='labelDotted'>axm6</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $axm.a4)' onmouseout='jeb.ui.hideTip(event)'>finite(PLAYERS)</td>
+<td class='formula' id='$axm.a4' align='center'></td>
+</tr>
+<tr>
+<td name='axiomCheckbox'><input type='checkbox'></td>
+<td class='labelDotted'>axm7</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $axm.a5)' onmouseout='jeb.ui.hideTip(event)'>partition(PLAYERS,{PLAYER_1},{PLAYER_2})</td>
+<td class='formula' id='$axm.a5' align='center'></td>
+</tr>
+<tr>
+<td name='axiomCheckbox'><input type='checkbox'></td>
+<td class='labelDotted'>axm8</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $axm.a6)' onmouseout='jeb.ui.hideTip(event)'>partition(COLORS,{EMPTY},{RED},{BLUE})</td>
+<td class='formula' id='$axm.a6' align='center'></td>
+</tr>
+</table>
+
+<div id='jeb.ui.tip' style='background-color:#ffffcc;position:absolute;visibility:hidden;padding:5px'></div>
+<script type='text/javascript' src='biginteger.js'></script>
+<script type='text/javascript' src='jeb.js'></script>
+<script type='text/javascript' src='set.js'></script>
+<script type='text/javascript' src='C0.js'></script>
+<script type='text/javascript' src='jeb_user.js'></script>
+</body>
+</html>
