@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="4">
-    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="3">
-        <org.eventb.core.poIdentifier name="FIELD" org.eventb.core.type="ℙ(FIELD)"/>
+<org.eventb.core.poFile org.eventb.core.poStamp="5">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="5">
+        <org.eventb.core.poIdentifier name="PLAYERS" org.eventb.core.type="ℙ(PLAYERS)"/>
         <org.eventb.core.poIdentifier name="COL" org.eventb.core.type="ℙ(COL)"/>
         <org.eventb.core.poIdentifier name="ROW" org.eventb.core.type="ℙ(ROW)"/>
+        <org.eventb.core.poIdentifier name="COLORS" org.eventb.core.type="ℙ(COLORS)"/>
+        <org.eventb.core.poIdentifier name="BLUE" org.eventb.core.type="COLORS"/>
         <org.eventb.core.poIdentifier name="ROW_CNT" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="PLAYER_1" org.eventb.core.type="PLAYERS"/>
+        <org.eventb.core.poIdentifier name="PLAYER_2" org.eventb.core.type="PLAYERS"/>
         <org.eventb.core.poIdentifier name="COL_CNT" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="RED" org.eventb.core.type="COLORS"/>
         <org.eventb.core.poIdentifier name="WIN_CNT" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="EMPTY" org.eventb.core.type="COLORS"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Connect-4-model-example/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="4">
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Connect-4-model-example/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="5">
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ROW_CNT=6" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#,"/>
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="COL_CNT=7" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#-"/>
         <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="WIN_CNT=4" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#\/"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="finite(PLAYERS)" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#_VRQpkMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="partition(PLAYERS,{PLAYER_1},{PLAYER_2})" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#_VRRQoMSnEeyX_5VAW912xQ"/>
+        <org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="partition(COLORS,{EMPTY},{RED},{BLUE})" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#_VRRQocSnEeyX_5VAW912xQ"/>
     </org.eventb.core.poPredicateSet>
 </org.eventb.core.poFile>

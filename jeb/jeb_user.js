@@ -14,11 +14,6 @@ $cst.ROW = $B.UpTo(1, 6);
 
 $cst.COL = $B.UpTo(1, 7);
 
-// $cst.FIELD = ;
-
-$cst.PLAYERS = $B.EmptySet;
-
-$cst.COLORS = $B.Set($cst.EMPTY, $cst.BLUE, $cst.RED);
 
 
 /* Constants */
@@ -38,6 +33,9 @@ $cst.RED = 'red';
 
 $cst.EMPTY = 'empty';
 
+$cst.PLAYERS = $B.EmptySet;
+
+$cst.COLORS = $B.SetExtension($cst.EMPTY, $cst.BLUE, $cst.RED);
 
 /* drawing base */
 

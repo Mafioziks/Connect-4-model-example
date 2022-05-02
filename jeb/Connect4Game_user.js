@@ -13,8 +13,8 @@ var get_y = function( eventId ) {
 };
 
 jeb.animator.init = function() {
-$anim.canvas.width = 1000;
-$anim.canvas.height = 500;
+$anim.canvas.width = 440;
+$anim.canvas.height = 390;
 $anim.canvas.style.display = '';
 }
 
