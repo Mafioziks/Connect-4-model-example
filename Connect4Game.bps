@@ -15,24 +15,25 @@
     <org.eventb.core.psStatus name="INITIALISATION/defineVLineMade/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="48" org.eventb.core.psManual="true"/>
     <org.eventb.core.psStatus name="INITIALISATION/invWinnerRow/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="48" org.eventb.core.psManual="true"/>
     <org.eventb.core.psStatus name="INITIALISATION/winner/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="48" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/grdHaveEmptyPlace/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="48" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/grdPlaceEmpty/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="48" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/grdLastEmptyRow/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="48" org.eventb.core.psManual="true"/>
-    <org.eventb.core.psStatus name="add_token/grdNoHLines/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/grdNoVLines/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/invPlayerChange/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/lineOhterWay/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/defineHLineMade/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/defineVLineMade/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="add_token/invWinnerRow/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="win_hline/grdLineH/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="win_hline/defineHLineMade/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="win_hline/winner/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="win_vline/grdLineH/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
-    <org.eventb.core.psStatus name="win_vline/defineVLineMade/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="50" org.eventb.core.psManual="true"/>
-    <org.eventb.core.psStatus name="win_vline/winner/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="50" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/grdHaveEmptyPlace/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/grdPlaceEmpty/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/grdLastEmptyRow/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="53" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="add_token/grdNoHLines/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/grdNoVLines/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/invPlayerChange/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/lineOhterWay/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/defineHLineMade/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/defineVLineMade/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="add_token/invWinnerRow/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="53" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="win_hline/grdLineH/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="54" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="win_hline/defineHLineMade/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="54" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="win_hline/winner/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="54" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="win_vline/grdLineH/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="54" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="win_vline/defineVLineMade/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="54" org.eventb.core.psManual="true"/>
+    <org.eventb.core.psStatus name="win_vline/winner/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="54" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="win_event/lineOhterWay/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="49" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="win_event/invWinnerRow/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="49" org.eventb.core.psManual="false"/>
     <org.eventb.core.psStatus name="win_event/winner/INV" org.eventb.core.confidence="0" org.eventb.core.poStamp="49" org.eventb.core.psManual="false"/>
+    <org.eventb.core.psStatus name="test_comparasin/grdSame/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="56" org.eventb.core.psManual="false"/>
 </org.eventb.core.psFile>

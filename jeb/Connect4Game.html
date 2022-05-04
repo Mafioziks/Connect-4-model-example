@@ -342,12 +342,12 @@ Max try arguments: <input type='text' style='width:60px' id='jeb.ui.MAX_TRY_ARGU
 </tr>
 <tr eventId='$evt.e1' name='guard'>
 <td class='label'>grdNoHLines :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e1.guard.g6)' onmouseout='jeb.ui.hideTip(event)'>¬(∀r·r∈row∧(∃s,e·s∈col∧e∈col∧board(s ↦ r)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(s ↦ r)=board(i ↦ r))))</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e1.guard.g6)' onmouseout='jeb.ui.hideTip(event)'>¬(∃r·r∈row∧(∃s,e·s∈col∧e∈col∧board(s ↦ r)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(s ↦ r)=board(i ↦ r))))</td>
 <td id='$evt.e1.guard.g6' class='formula'></td>
 </tr>
 <tr eventId='$evt.e1' name='guard'>
 <td class='label'>grdNoVLines :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e1.guard.g7)' onmouseout='jeb.ui.hideTip(event)'>¬(∀c·c∈col∧(∃s,e·s∈row∧e∈row∧board(c ↦ s)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(c ↦ s)=board(c ↦ i))))</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e1.guard.g7)' onmouseout='jeb.ui.hideTip(event)'>¬(∃c·c∈col∧(∃s,e·s∈row∧e∈row∧board(c ↦ s)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(c ↦ s)=board(c ↦ i))))</td>
 <td id='$evt.e1.guard.g7' class='formula'></td>
 </tr>
 <tr eventId='$evt.e1' name='action'>
@@ -378,7 +378,7 @@ Max try arguments: <input type='text' style='width:60px' id='jeb.ui.MAX_TRY_ARGU
 </tr>
 <tr eventId='$evt.e2' name='guard'>
 <td class='label'>grdLineH :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e2.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>∀r·r∈row∧(∃s,e·s∈col∧e∈col∧board(s ↦ r)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(s ↦ r)=board(i ↦ r)))</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e2.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>∃r·r∈row∧(∃s,e·s∈col∧e∈col∧board(s ↦ r)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(s ↦ r)=board(i ↦ r)))</td>
 <td id='$evt.e2.guard.g1' class='formula'></td>
 </tr>
 <tr eventId='$evt.e2' name='action'>
@@ -399,7 +399,7 @@ Max try arguments: <input type='text' style='width:60px' id='jeb.ui.MAX_TRY_ARGU
 </tr>
 <tr eventId='$evt.e3' name='guard'>
 <td class='label'>grdLineH :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e3.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>∀c·c∈col∧(∃s,e·s∈row∧e∈row∧board(c ↦ s)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(c ↦ s)=board(c ↦ i)))</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e3.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>∃c·c∈col∧(∃s,e·s∈row∧e∈row∧board(c ↦ s)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(c ↦ s)=board(c ↦ i)))</td>
 <td id='$evt.e3.guard.g1' class='formula'></td>
 </tr>
 <tr eventId='$evt.e3' name='action'>

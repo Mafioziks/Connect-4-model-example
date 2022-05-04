@@ -1,6 +1,6 @@
 /******************************************************************************
  * MACHINE [Connect4Game]
- * Generated at 2022/04/29 12:38:37
+ * Generated at 2022/05/04 17:58:51
  * JeB translator version 0.6.5
  ******************************************************************************/
 
@@ -199,12 +199,12 @@ $evt.e1.guard.g5.predicate = function( $arg ) {
 
 $evt.e1.guard.g6 = new jeb.lang.Guard( '$evt.e1.guard.g6', 'grdNoHLines', $evt.e1, 0 );
 $evt.e1.guard.g6.predicate = function( $arg ) {
-    return $B.not($B.forAll(function(r){return $B.and($B.belong(r, $var.row.value), $B.exists(function(s, e){return $B.and($B.belong(s, $var.col.value), $B.belong(e, $var.col.value), $B.notEqual($B.functionImage($var.board.value, $B.Pair(s, r)), $cst.EMPTY), $B.equal($B.plus($B.minus(e ,s), $B('1')), $cst.WIN_CNT), $B.forAll(function(i){return $B.and($B.belong(i, $B.UpTo(s, e)), $B.equal($B.functionImage($var.board.value, $B.Pair(s, r)), $B.functionImage($var.board.value, $B.Pair(i, r))));}, [$B.UpTo(s, e)]));}, [$var.col.value, $var.col.value]));}, [$var.row.value]));
+    return $B.not($B.exists(function(r){return $B.and($B.belong(r, $var.row.value), $B.exists(function(s, e){return $B.and($B.belong(s, $var.col.value), $B.belong(e, $var.col.value), $B.notEqual($B.functionImage($var.board.value, $B.Pair(s, r)), $cst.EMPTY), $B.equal($B.plus($B.minus(e ,s), $B('1')), $cst.WIN_CNT), $B.forAll(function(i){return $B.and($B.belong(i, $B.UpTo(s, e)), $B.equal($B.functionImage($var.board.value, $B.Pair(s, r)), $B.functionImage($var.board.value, $B.Pair(i, r))));}, [$B.UpTo(s, e)]));}, [$var.col.value, $var.col.value]));}, [$var.row.value]));
 };
 
 $evt.e1.guard.g7 = new jeb.lang.Guard( '$evt.e1.guard.g7', 'grdNoVLines', $evt.e1, 0 );
 $evt.e1.guard.g7.predicate = function( $arg ) {
-    return $B.not($B.forAll(function(c){return $B.and($B.belong(c, $var.col.value), $B.exists(function(s, e){return $B.and($B.belong(s, $var.row.value), $B.belong(e, $var.row.value), $B.notEqual($B.functionImage($var.board.value, $B.Pair(c, s)), $cst.EMPTY), $B.equal($B.plus($B.minus(e ,s), $B('1')), $cst.WIN_CNT), $B.forAll(function(i){return $B.and($B.belong(i, $B.UpTo(s, e)), $B.equal($B.functionImage($var.board.value, $B.Pair(c, s)), $B.functionImage($var.board.value, $B.Pair(c, i))));}, [$B.UpTo(s, e)]));}, [$var.row.value, $var.row.value]));}, [$var.col.value]));
+    return $B.not($B.exists(function(c){return $B.and($B.belong(c, $var.col.value), $B.exists(function(s, e){return $B.and($B.belong(s, $var.row.value), $B.belong(e, $var.row.value), $B.notEqual($B.functionImage($var.board.value, $B.Pair(c, s)), $cst.EMPTY), $B.equal($B.plus($B.minus(e ,s), $B('1')), $cst.WIN_CNT), $B.forAll(function(i){return $B.and($B.belong(i, $B.UpTo(s, e)), $B.equal($B.functionImage($var.board.value, $B.Pair(c, s)), $B.functionImage($var.board.value, $B.Pair(c, i))));}, [$B.UpTo(s, e)]));}, [$var.row.value, $var.row.value]));}, [$var.col.value]));
 };
 
 $evt.e1.action.a1 = new jeb.lang.Action( '$evt.e1.action.a1', 'boardUpdate', $evt.e1 );
@@ -228,37 +228,7 @@ $evt.e2 = new jeb.lang.Event( '$evt.e2', 'win_hline' );
 
 $evt.e2.guard.g1 = new jeb.lang.Guard( '$evt.e2.guard.g1', 'grdLineH', $evt.e2, 0 );
 $evt.e2.guard.g1.predicate = function( $arg ) {
-    return $B.forAll(
-        function(r){
-            return $B.and(
-                $B.belong(r, $var.row.value), 
-                $B.exists(
-                    function(s, e){
-                        return $B.and(
-                            $B.belong(s, $var.col.value), 
-                            $B.belong(e, $var.col.value), 
-                            $B.notEqual($B.functionImage($var.board.value, $B.Pair(s, r)), $cst.EMPTY), 
-                            $B.equal($B.plus($B.minus(e ,s), $B('1')), $cst.WIN_CNT), 
-                            $B.forAll(
-                                function(i){
-                                    return $B.and(
-                                        $B.belong(i, $B.UpTo(s, e)), 
-                                        $B.equal(
-                                            $B.functionImage($var.board.value, $B.Pair(s, r)), 
-                                            $B.functionImage($var.board.value, $B.Pair(i, r))
-                                        )
-                                    );
-                                }, 
-                                [$B.UpTo(s, e)]
-                            )
-                        );
-                    }, 
-                    [$var.col.value, $var.col.value]
-                )
-            );
-        }, 
-        [$var.row.value]
-    );
+    return $B.exists(function(r){return $B.and($B.belong(r, $var.row.value), $B.exists(function(s, e){return $B.and($B.belong(s, $var.col.value), $B.belong(e, $var.col.value), $B.notEqual($B.functionImage($var.board.value, $B.Pair(s, r)), $cst.EMPTY), $B.equal($B.plus($B.minus(e ,s), $B('1')), $cst.WIN_CNT), $B.forAll(function(i){return $B.and($B.belong(i, $B.UpTo(s, e)), $B.equal($B.functionImage($var.board.value, $B.Pair(s, r)), $B.functionImage($var.board.value, $B.Pair(i, r))));}, [$B.UpTo(s, e)]));}, [$var.col.value, $var.col.value]));}, [$var.row.value]);
 };
 
 $evt.e2.action.a1 = new jeb.lang.Action( '$evt.e2.action.a1', 'setWinLine', $evt.e2 );
@@ -272,37 +242,7 @@ $evt.e3 = new jeb.lang.Event( '$evt.e3', 'win_vline' );
 
 $evt.e3.guard.g1 = new jeb.lang.Guard( '$evt.e3.guard.g1', 'grdLineH', $evt.e3, 0 );
 $evt.e3.guard.g1.predicate = function( $arg ) {
-    return $B.forAll(
-        function(c){
-            return $B.and(
-                $B.belong(c, $var.col.value), 
-                $B.exists(
-                    function(s, e){
-                        return $B.and(
-                            $B.belong(s, $var.row.value), 
-                            $B.belong(e, $var.row.value), 
-                            $B.notEqual($B.functionImage($var.board.value, $B.Pair(c, s)), $cst.EMPTY), 
-                            $B.equal($B.plus($B.minus(e ,s), $B('1')), $cst.WIN_CNT), 
-                            $B.forAll(
-                                function(i){
-                                    return $B.and(
-                                        $B.belong(i, $B.UpTo(s, e)), 
-                                        $B.equal(
-                                            $B.functionImage($var.board.value, $B.Pair(c, s)), 
-                                            $B.functionImage($var.board.value, $B.Pair(c, i))
-                                        )
-                                    );
-                                }, 
-                                [$B.UpTo(s, e)]
-                            )
-                        );
-                    }, 
-                    [$var.row.value, $var.row.value]
-                )
-            );
-        }, 
-        [$var.col.value]
-    );
+    return $B.exists(function(c){return $B.and($B.belong(c, $var.col.value), $B.exists(function(s, e){return $B.and($B.belong(s, $var.row.value), $B.belong(e, $var.row.value), $B.notEqual($B.functionImage($var.board.value, $B.Pair(c, s)), $cst.EMPTY), $B.equal($B.plus($B.minus(e ,s), $B('1')), $cst.WIN_CNT), $B.forAll(function(i){return $B.and($B.belong(i, $B.UpTo(s, e)), $B.equal($B.functionImage($var.board.value, $B.Pair(c, s)), $B.functionImage($var.board.value, $B.Pair(c, i))));}, [$B.UpTo(s, e)]));}, [$var.row.value, $var.row.value]));}, [$var.col.value]);
 };
 
 $evt.e3.action.a1 = new jeb.lang.Action( '$evt.e3.action.a1', 'setWinLine', $evt.e3 );

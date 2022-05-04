@@ -2499,13 +2499,13 @@
         <org.eventb.core.prPred name="p64" org.eventb.core.predicate="previous_player∈COLORS">
             <org.eventb.core.prIdent name="previous_player" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
-        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
         <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="add_token/defineVLineMade/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COLORS">
         <org.eventb.core.lang name="L"/>
@@ -2963,13 +2963,13 @@
         <org.eventb.core.prPred name="p64" org.eventb.core.predicate="previous_player∈COLORS">
             <org.eventb.core.prIdent name="previous_player" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
-        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
         <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="add_token/invWinnerRow/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COLORS">
         <org.eventb.core.lang name="L"/>
@@ -3392,13 +3392,13 @@
         <org.eventb.core.prPred name="p64" org.eventb.core.predicate="previous_player∈COLORS">
             <org.eventb.core.prIdent name="previous_player" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
-        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
         <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="lineOhterWay/WD" org.eventb.core.confidence="0" org.eventb.core.prFresh="r,c" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3" org.eventb.core.prSets="COLORS" org.eventb.core.psManual="true">
         <org.eventb.core.lang name="L"/>
@@ -4185,13 +4185,13 @@
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p37" org.eventb.core.predicate="∀c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col⇒c ↦ r∈dom(board{x ↦ y ↦ current_player})∧board{x ↦ y ↦ current_player}∈ℤ × ℤ ⇸ COLORS∧((board{x ↦ y ↦ current_player})(c ↦ r)≠EMPTY⇒c+1 ↦ r∈dom(board{x ↦ y ↦ current_player})∧((board{x ↦ y ↦ current_player})(c ↦ r)=(board{x ↦ y ↦ current_player})(c+1 ↦ r)⇒c+2 ↦ r∈dom(board{x ↦ y ↦ current_player})∧((board{x ↦ y ↦ current_player})(c ↦ r)=(board{x ↦ y ↦ current_player})(c+2 ↦ r)⇒c+3 ↦ r∈dom(board{x ↦ y ↦ current_player}))))"/>
-        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
-        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
         <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.he:1"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="add_token/winner/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COLORS">
         <org.eventb.core.lang name="L"/>
@@ -5452,11 +5452,11 @@
         <org.eventb.core.prPred name="p29" org.eventb.core.predicate="∀r⦂ℤ·∃s⦂ℤ,e⦂ℤ·s∈col∧e∈col∧¬board(s ↦ r)=EMPTY∧e − s+1=WIN_CNT∧(∀i⦂ℤ·i∈s ‥ e)∧(∀i⦂ℤ·board(s ↦ r)=board(i ↦ r))">
             <org.eventb.core.prIdent name="WIN_CNT" org.eventb.core.type="ℤ"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
         <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="win_hline/winner/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="COLORS">
         <org.eventb.core.lang name="L"/>
@@ -5806,14 +5806,14 @@
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
         <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
-        <org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
         <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
+        <org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="win_event/lineOhterWay/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="COLORS">
         <org.eventb.core.lang name="L"/>
@@ -5845,25 +5845,24 @@
                                         <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p33"/>
                                         <org.eventb.core.prHypAction name="HIDE4" org.eventb.core.prHyps="p34"/>
                                         <org.eventb.core.prHypAction name="HIDE5" org.eventb.core.prHyps="p35"/>
-                                        <org.eventb.core.prHypAction name="HIDE6" org.eventb.core.prHyps="p36"/>
                                         <org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p29" org.eventb.core.prHyps="">
-                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p38" org.eventb.core.prHyps="p37">
+                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p37" org.eventb.core.prHyps="p36">
                                                 <org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                                                     <org.eventb.core.prAnte name="'">
-                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="p37" org.eventb.core.prInfHyps="p39"/>
+                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="p36" org.eventb.core.prInfHyps="p38"/>
                                                         <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                                                             <org.eventb.core.prAnte name="'">
-                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p39" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p40"/>
+                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p38" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p39"/>
                                                                 <org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                                                                     <org.eventb.core.prAnte name="'">
-                                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p41" org.eventb.core.prHyps="p40" org.eventb.core.prInfHyps="p42"/>
-                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p24" org.eventb.core.prHyps="p40" org.eventb.core.prInfHyps="p43"/>
-                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p26" org.eventb.core.prHyps="p40" org.eventb.core.prInfHyps="p44"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p40" org.eventb.core.prHyps="p39" org.eventb.core.prInfHyps="p41"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p24" org.eventb.core.prHyps="p39" org.eventb.core.prInfHyps="p42"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p26" org.eventb.core.prHyps="p39" org.eventb.core.prInfHyps="p43"/>
                                                                         <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                                                                             <org.eventb.core.prAnte name="'">
-                                                                                <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p42"/>
-                                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p43" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p45"/>
-                                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p44" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p46"/>
+                                                                                <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p41"/>
+                                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p42" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p44"/>
+                                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p43" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p45"/>
                                                                             </org.eventb.core.prAnte>
                                                                         </org.eventb.core.prRule>
                                                                     </org.eventb.core.prAnte>
@@ -5896,13 +5895,13 @@
         <org.eventb.core.prPred name="p12" org.eventb.core.predicate="(∃c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col∧¬board(c ↦ r)=EMPTY∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))⇒¬winner=EMPTY">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="¬winner=EMPTY">
+        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="¬winner=EMPTY">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p34" org.eventb.core.predicate="hline∈COLORS">
             <org.eventb.core.prIdent name="hline" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p44" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))">
+        <org.eventb.core.prPred name="p43" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))">
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
@@ -5921,12 +5920,12 @@
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="(∃c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col∧board(c ↦ r)≠EMPTY∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))⇒previous_player≠EMPTY"/>
-        <org.eventb.core.prPred name="p37" org.eventb.core.predicate="∃c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col∧¬board(c ↦ r)=EMPTY∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)"/>
+        <org.eventb.core.prPred name="p36" org.eventb.core.predicate="∃c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col∧¬board(c ↦ r)=EMPTY∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)"/>
         <org.eventb.core.prPred name="p4" org.eventb.core.predicate="partition(COLORS,{EMPTY},{RED},{BLUE})">
             <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="RED" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="¬previous_player=EMPTY"/>
+        <org.eventb.core.prPred name="p37" org.eventb.core.predicate="¬previous_player=EMPTY"/>
         <org.eventb.core.prPred name="p35" org.eventb.core.predicate="vline∈COLORS">
             <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
@@ -5937,9 +5936,6 @@
         <org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬RED=BLUE">
             <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="RED" org.eventb.core.type="COLORS"/>
-        </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p36" org.eventb.core.predicate="sampleBool∈BOOL">
-            <org.eventb.core.prIdent name="sampleBool" org.eventb.core.type="BOOL"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p15" org.eventb.core.predicate="hline≠EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
             <org.eventb.core.prIdent name="hline" org.eventb.core.type="COLORS"/>
@@ -5974,7 +5970,7 @@
             <org.eventb.core.prIdent name="hline" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="winner=EMPTY⇒vline=EMPTY∧hline=EMPTY">
+        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="winner=EMPTY⇒vline=EMPTY∧hline=EMPTY">
             <org.eventb.core.prIdent name="hline" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
@@ -5983,11 +5979,11 @@
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p42" org.eventb.core.predicate="⊥⇒vline=EMPTY∧hline=EMPTY">
+        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="⊥⇒vline=EMPTY∧hline=EMPTY">
             <org.eventb.core.prIdent name="hline" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p45" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)">
+        <org.eventb.core.prPred name="p44" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)">
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
@@ -6008,11 +6004,11 @@
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p43" org.eventb.core.predicate="¬⊥⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
+        <org.eventb.core.prPred name="p42" org.eventb.core.predicate="¬⊥⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p46" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))">
+        <org.eventb.core.prPred name="p45" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))">
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
@@ -6033,7 +6029,7 @@
             <org.eventb.core.prIdent name="current_player" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p33" org.eventb.core.predicate="previous_player∈COLORS"/>
-        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="⊤⇒¬winner=EMPTY">
+        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="⊤⇒¬winner=EMPTY">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p3" org.eventb.core.predicate="¬PLAYER_1=PLAYER_2">
@@ -6045,11 +6041,11 @@
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
         <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="win_event/invWinnerRow/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="COLORS">
         <org.eventb.core.lang name="L"/>
@@ -6082,15 +6078,14 @@
                                         <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p35"/>
                                         <org.eventb.core.prHypAction name="HIDE4" org.eventb.core.prHyps="p36"/>
                                         <org.eventb.core.prHypAction name="HIDE5" org.eventb.core.prHyps="p37"/>
-                                        <org.eventb.core.prHypAction name="HIDE6" org.eventb.core.prHyps="p38"/>
                                         <org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p31" org.eventb.core.prHyps="">
-                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p40" org.eventb.core.prHyps="p39">
+                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p39" org.eventb.core.prHyps="p38">
                                                 <org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                                                     <org.eventb.core.prAnte name="'">
-                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p30" org.eventb.core.prHyps="p39" org.eventb.core.prInfHyps="p41"/>
+                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p30" org.eventb.core.prHyps="p38" org.eventb.core.prInfHyps="p40"/>
                                                         <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                                                             <org.eventb.core.prAnte name="'">
-                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p41" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p42"/>
+                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p40" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p41"/>
                                                             </org.eventb.core.prAnte>
                                                         </org.eventb.core.prRule>
                                                     </org.eventb.core.prAnte>
@@ -6140,7 +6135,7 @@
             <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="RED" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="¬previous_player=EMPTY"/>
+        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="¬previous_player=EMPTY"/>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="previous_player≠EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=previous_player∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))"/>
         <org.eventb.core.prPred name="p37" org.eventb.core.predicate="vline∈COLORS">
             <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
@@ -6148,13 +6143,10 @@
         <org.eventb.core.prPred name="p22" org.eventb.core.predicate="¬vline=EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c ↦ r+1∈dom(board)∧(board(c ↦ r)=board(c ↦ r+1)⇒c ↦ r+2∈dom(board)∧(board(c ↦ r)=board(c ↦ r+2)⇒c ↦ r+3∈dom(board))))">
             <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=previous_player∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))"/>
+        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=previous_player∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))"/>
         <org.eventb.core.prPred name="p8" org.eventb.core.predicate="¬RED=BLUE">
             <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="RED" org.eventb.core.type="COLORS"/>
-        </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="sampleBool∈BOOL">
-            <org.eventb.core.prIdent name="sampleBool" org.eventb.core.type="BOOL"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p15" org.eventb.core.predicate="hline≠EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
             <org.eventb.core.prIdent name="hline" org.eventb.core.type="COLORS"/>
@@ -6189,14 +6181,14 @@
         <org.eventb.core.prPred name="p21" org.eventb.core.predicate="vline≠EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c ↦ r+1∈dom(board)∧(board(c ↦ r)=board(c ↦ r+1)⇒c ↦ r+2∈dom(board)∧(board(c ↦ r)=board(c ↦ r+2)⇒c ↦ r+3∈dom(board))))">
             <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p42" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=previous_player∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))"/>
+        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=previous_player∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))"/>
         <org.eventb.core.prPred name="p9" org.eventb.core.predicate="current_player≠previous_player">
             <org.eventb.core.prIdent name="current_player" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p25" org.eventb.core.predicate="winner≠EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=previous_player∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)"/>
+        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=previous_player∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)"/>
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLAYERS,{PLAYER_1},{PLAYER_2})">
             <org.eventb.core.prIdent name="PLAYERS" org.eventb.core.type="ℙ(PLAYERS)"/>
             <org.eventb.core.prIdent name="PLAYER_1" org.eventb.core.type="PLAYERS"/>
@@ -6230,11 +6222,11 @@
         <org.eventb.core.prPred name="p23" org.eventb.core.predicate="winner≠EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
         <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="win_event/winner/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="COLORS">
         <org.eventb.core.lang name="L"/>
@@ -6266,33 +6258,32 @@
                                         <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p32"/>
                                         <org.eventb.core.prHypAction name="HIDE4" org.eventb.core.prHyps="p33"/>
                                         <org.eventb.core.prHypAction name="HIDE5" org.eventb.core.prHyps="p34"/>
-                                        <org.eventb.core.prHypAction name="HIDE6" org.eventb.core.prHyps="p35"/>
                                         <org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="⇒ goal" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
-                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p37" org.eventb.core.prHyps="p36">
-                                                <org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∧ goal" org.eventb.core.prGoal="p37" org.eventb.core.prHyps="">
-                                                    <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p38">
-                                                        <org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p38" org.eventb.core.prHyps="">
-                                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p38">
-                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p39" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p40"/>
-                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p20" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p41"/>
-                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p22" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p42"/>
-                                                                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p28" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p43"/>
+                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p36" org.eventb.core.prHyps="p35">
+                                                <org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∧ goal" org.eventb.core.prGoal="p36" org.eventb.core.prHyps="">
+                                                    <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p37">
+                                                        <org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p37" org.eventb.core.prHyps="">
+                                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p37">
+                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p38" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p39"/>
+                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p20" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p40"/>
+                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p22" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p41"/>
+                                                                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p28" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p42"/>
                                                                 <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                                                                     <org.eventb.core.prAnte name="'">
-                                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p40" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p44"/>
-                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p41" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p45"/>
-                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p42" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p46"/>
-                                                                        <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p43"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p39" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p43"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p40" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p44"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p41" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p45"/>
+                                                                        <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p42"/>
                                                                         <org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                                                                             <org.eventb.core.prAnte name="'">
-                                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="p44" org.eventb.core.prInfHyps="p47"/>
-                                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p24" org.eventb.core.prHyps="p44" org.eventb.core.prInfHyps="p48"/>
-                                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p26" org.eventb.core.prHyps="p44" org.eventb.core.prInfHyps="p49"/>
+                                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="p43" org.eventb.core.prInfHyps="p46"/>
+                                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p24" org.eventb.core.prHyps="p43" org.eventb.core.prInfHyps="p47"/>
+                                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p26" org.eventb.core.prHyps="p43" org.eventb.core.prInfHyps="p48"/>
                                                                                 <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                                                                                     <org.eventb.core.prAnte name="'">
-                                                                                        <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p47"/>
-                                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p48" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p50"/>
-                                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p49" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p51"/>
+                                                                                        <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p46"/>
+                                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p47" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p49"/>
+                                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p48" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p50"/>
                                                                                     </org.eventb.core.prAnte>
                                                                                 </org.eventb.core.prRule>
                                                                             </org.eventb.core.prAnte>
@@ -6302,29 +6293,29 @@
                                                             </org.eventb.core.prAnte>
                                                         </org.eventb.core.prRule>
                                                     </org.eventb.core.prAnte>
-                                                    <org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p52">
-                                                        <org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p52" org.eventb.core.prHyps="">
-                                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p52">
-                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p39" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p53"/>
-                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p54"/>
-                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p55"/>
-                                                                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p28" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p56"/>
+                                                    <org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p51">
+                                                        <org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prGoal="p51" org.eventb.core.prHyps="">
+                                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p51">
+                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p38" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p52"/>
+                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p16" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p53"/>
+                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p54"/>
+                                                                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p28" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p55"/>
                                                                 <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                                                                     <org.eventb.core.prAnte name="'">
-                                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p53" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p44"/>
-                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p54" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p57"/>
-                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p55" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p58"/>
-                                                                        <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p56"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p52" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p43"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p53" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p56"/>
+                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p54" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p57"/>
+                                                                        <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p55"/>
                                                                         <org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="generalized MP" org.eventb.core.prHyps="">
                                                                             <org.eventb.core.prAnte name="'">
-                                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="p44" org.eventb.core.prInfHyps="p47"/>
-                                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p24" org.eventb.core.prHyps="p44" org.eventb.core.prInfHyps="p48"/>
-                                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p26" org.eventb.core.prHyps="p44" org.eventb.core.prInfHyps="p49"/>
+                                                                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="p43" org.eventb.core.prInfHyps="p46"/>
+                                                                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p24" org.eventb.core.prHyps="p43" org.eventb.core.prInfHyps="p47"/>
+                                                                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p26" org.eventb.core.prHyps="p43" org.eventb.core.prInfHyps="p48"/>
                                                                                 <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
                                                                                     <org.eventb.core.prAnte name="'">
-                                                                                        <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p47"/>
-                                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p48" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p50"/>
-                                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p49" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p51"/>
+                                                                                        <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p46"/>
+                                                                                        <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p47" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p49"/>
+                                                                                        <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p48" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p50"/>
                                                                                     </org.eventb.core.prAnte>
                                                                                 </org.eventb.core.prRule>
                                                                             </org.eventb.core.prAnte>
@@ -6356,15 +6347,15 @@
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p55" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))">
+        <org.eventb.core.prPred name="p54" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p44" org.eventb.core.predicate="¬winner=EMPTY">
+        <org.eventb.core.prPred name="p43" org.eventb.core.predicate="¬winner=EMPTY">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p49" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))">
+        <org.eventb.core.prPred name="p48" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
@@ -6378,17 +6369,17 @@
         <org.eventb.core.prPred name="p29" org.eventb.core.predicate="win∈BOOL">
             <org.eventb.core.prIdent name="win" org.eventb.core.type="BOOL"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p54" org.eventb.core.predicate="¬⊥⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
+        <org.eventb.core.prPred name="p53" org.eventb.core.predicate="¬⊥⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p58" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))">
+        <org.eventb.core.prPred name="p57" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p45" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row∧board(c ↦ r)=board(c ↦ r+1)∧board(c ↦ r)=board(c ↦ r+2)∧board(c ↦ r)=board(c ↦ r+3)">
+        <org.eventb.core.prPred name="p44" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row∧board(c ↦ r)=board(c ↦ r+1)∧board(c ↦ r)=board(c ↦ r+2)∧board(c ↦ r)=board(c ↦ r+3)">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
@@ -6398,7 +6389,7 @@
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p46" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c ↦ r+1∈dom(board)∧(board(c ↦ r)=board(c ↦ r+1)⇒c ↦ r+2∈dom(board)∧(board(c ↦ r)=board(c ↦ r+2)⇒c ↦ r+3∈dom(board)))">
+        <org.eventb.core.prPred name="p45" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c ↦ r+1∈dom(board)∧(board(c ↦ r)=board(c ↦ r+1)⇒c ↦ r+2∈dom(board)∧(board(c ↦ r)=board(c ↦ r+2)⇒c ↦ r+3∈dom(board)))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
@@ -6407,16 +6398,13 @@
             <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="RED" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p35" org.eventb.core.predicate="sampleBool∈BOOL">
-            <org.eventb.core.prIdent name="sampleBool" org.eventb.core.type="BOOL"/>
-        </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p30" org.eventb.core.predicate="winner∈COLORS">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p10" org.eventb.core.predicate="¬current_player=previous_player">
             <org.eventb.core.prIdent name="current_player" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p43" org.eventb.core.predicate="¬hline=EMPTY∨¬⊥"/>
+        <org.eventb.core.prPred name="p42" org.eventb.core.predicate="¬hline=EMPTY∨¬⊥"/>
         <org.eventb.core.prPred name="p27" org.eventb.core.predicate="hline≠EMPTY∨vline≠EMPTY"/>
         <org.eventb.core.prPred name="p5" org.eventb.core.predicate="COLORS={EMPTY,RED,BLUE}">
             <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
@@ -6437,7 +6425,7 @@
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p56" org.eventb.core.predicate="¬⊥∨¬vline=EMPTY"/>
+        <org.eventb.core.prPred name="p55" org.eventb.core.predicate="¬⊥∨¬vline=EMPTY"/>
         <org.eventb.core.prPred name="p1" org.eventb.core.predicate="partition(PLAYERS,{PLAYER_1},{PLAYER_2})">
             <org.eventb.core.prIdent name="PLAYERS" org.eventb.core.type="ℙ(PLAYERS)"/>
             <org.eventb.core.prIdent name="PLAYER_1" org.eventb.core.type="PLAYERS"/>
@@ -6450,13 +6438,13 @@
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p0" org.eventb.core.predicate="previous_player=EMPTY⇒vline=EMPTY∧hline=EMPTY"/>
-        <org.eventb.core.prPred name="p48" org.eventb.core.predicate="¬⊥⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
+        <org.eventb.core.prPred name="p47" org.eventb.core.predicate="¬⊥⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p51" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))">
+        <org.eventb.core.prPred name="p50" org.eventb.core.predicate="∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
@@ -6470,7 +6458,7 @@
         <org.eventb.core.prPred name="p7" org.eventb.core.predicate="¬EMPTY=BLUE">
             <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="¬⊥⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row∧board(c ↦ r)=board(c ↦ r+1)∧board(c ↦ r)=board(c ↦ r+2)∧board(c ↦ r)=board(c ↦ r+3))">
+        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="¬⊥⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row∧board(c ↦ r)=board(c ↦ r+1)∧board(c ↦ r)=board(c ↦ r+2)∧board(c ↦ r)=board(c ↦ r+3))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
@@ -6491,7 +6479,7 @@
             <org.eventb.core.prIdent name="PLAYER_1" org.eventb.core.type="PLAYERS"/>
             <org.eventb.core.prIdent name="PLAYER_2" org.eventb.core.type="PLAYERS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p52" org.eventb.core.predicate="hline=EMPTY"/>
+        <org.eventb.core.prPred name="p51" org.eventb.core.predicate="hline=EMPTY"/>
         <org.eventb.core.prPred name="p33" org.eventb.core.predicate="hline∈COLORS"/>
         <org.eventb.core.prPred name="p6" org.eventb.core.predicate="¬EMPTY=RED">
             <org.eventb.core.prIdent name="RED" org.eventb.core.type="COLORS"/>
@@ -6505,14 +6493,14 @@
             <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
             <org.eventb.core.prIdent name="RED" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p36" org.eventb.core.predicate="previous_player=EMPTY"/>
+        <org.eventb.core.prPred name="p35" org.eventb.core.predicate="previous_player=EMPTY"/>
         <org.eventb.core.prPred name="p34" org.eventb.core.predicate="vline∈COLORS"/>
         <org.eventb.core.prPred name="p15" org.eventb.core.predicate="hline≠EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p57" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)">
+        <org.eventb.core.prPred name="p56" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
@@ -6522,15 +6510,15 @@
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p53" org.eventb.core.predicate="winner=EMPTY⇒vline=EMPTY∧⊥">
+        <org.eventb.core.prPred name="p52" org.eventb.core.predicate="winner=EMPTY⇒vline=EMPTY∧⊥">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p28" org.eventb.core.predicate="¬hline=EMPTY∨¬vline=EMPTY"/>
-        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="winner=EMPTY⇒vline=EMPTY∧hline=EMPTY">
+        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="winner=EMPTY⇒vline=EMPTY∧hline=EMPTY">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="vline=EMPTY"/>
-        <org.eventb.core.prPred name="p50" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)">
+        <org.eventb.core.prPred name="p37" org.eventb.core.predicate="vline=EMPTY"/>
+        <org.eventb.core.prPred name="p49" org.eventb.core.predicate="∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r)">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
@@ -6545,7 +6533,7 @@
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p47" org.eventb.core.predicate="(∃c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col∧¬board(c ↦ r)=EMPTY∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))⇒¬⊥">
+        <org.eventb.core.prPred name="p46" org.eventb.core.predicate="(∃c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col∧¬board(c ↦ r)=EMPTY∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))⇒¬⊥">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
@@ -6559,7 +6547,7 @@
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="winner=EMPTY⇒⊥∧hline=EMPTY">
+        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="winner=EMPTY⇒⊥∧hline=EMPTY">
             <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p13" org.eventb.core.predicate="∀c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)≠EMPTY⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))">
@@ -6570,18 +6558,18 @@
             <org.eventb.core.prIdent name="current_player" org.eventb.core.type="COLORS"/>
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p32" org.eventb.core.predicate="previous_player∈COLORS"/>
-        <org.eventb.core.prPred name="p37" org.eventb.core.predicate="vline=EMPTY∧hline=EMPTY"/>
-        <org.eventb.core.prPred name="p42" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c ↦ r+1∈dom(board)∧(board(c ↦ r)=board(c ↦ r+1)⇒c ↦ r+2∈dom(board)∧(board(c ↦ r)=board(c ↦ r+2)⇒c ↦ r+3∈dom(board))))">
+        <org.eventb.core.prPred name="p36" org.eventb.core.predicate="vline=EMPTY∧hline=EMPTY"/>
+        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="¬⊥⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c ↦ r+1∈dom(board)∧(board(c ↦ r)=board(c ↦ r+1)⇒c ↦ r+2∈dom(board)∧(board(c ↦ r)=board(c ↦ r+2)⇒c ↦ r+3∈dom(board))))">
             <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
             <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
             <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
         </org.eventb.core.prPred>
-        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
-        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
         <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
         <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
     <org.eventb.core.prProof name="add_token/grdNoLines/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="r,s,e,i" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25,p26,p27,p28,p29,p30,p31" org.eventb.core.prSets="COLORS,PLAYERS">
         <org.eventb.core.lang name="L"/>
@@ -8230,13 +8218,148 @@
         </org.eventb.core.prPred>
         <org.eventb.core.prPred name="p34" org.eventb.core.predicate="previous_player∈COLORS"/>
         <org.eventb.core.prPred name="p54" org.eventb.core.predicate="⊤⇒vline=EMPTY∧⊥"/>
-        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
-        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
         <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.genMPL3"/>
         <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
         <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
         <org.eventb.core.prReas name="r6" org.eventb.core.prRID="org.eventb.core.seqprover.rn"/>
-        <org.eventb.core.prReas name="r7" org.eventb.core.prRID="org.eventb.core.seqprover.falseHyp"/>
-        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+    </org.eventb.core.prProof>
+    <org.eventb.core.prProof name="test_comparasin/grdSame/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25" org.eventb.core.prSets="COLORS,PLAYERS">
+        <org.eventb.core.lang name="L"/>
+        <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(PLAYERS,{PLAYER_1},{PLAYER_2}))" org.eventb.core.prHyps="">
+            <org.eventb.core.prAnte name="'">
+                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p18" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p26,p27"/>
+                <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p26,p27"/>
+                <org.eventb.core.prRule name="r0" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="Partition rewrites in hyp (partition(COLORS,{EMPTY},{RED},{BLUE}))" org.eventb.core.prHyps="">
+                    <org.eventb.core.prAnte name="'">
+                        <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p3" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p28,p29,p30,p31"/>
+                        <org.eventb.core.prHypAction name="SELECT1" org.eventb.core.prHyps="p28,p29,p30,p31"/>
+                        <org.eventb.core.prRule name="r1" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="simplification rewrites" org.eventb.core.prHyps="">
+                            <org.eventb.core.prAnte name="'">
+                                <org.eventb.core.prHypAction name="REWRITE0" org.eventb.core.prHidden="p15" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p32"/>
+                                <org.eventb.core.prHypAction name="REWRITE1" org.eventb.core.prHidden="p8" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p33"/>
+                                <org.eventb.core.prHypAction name="REWRITE2" org.eventb.core.prHidden="p22" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p34"/>
+                                <org.eventb.core.prHypAction name="REWRITE3" org.eventb.core.prHidden="p5" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p35"/>
+                                <org.eventb.core.prHypAction name="REWRITE4" org.eventb.core.prHidden="p1" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p36"/>
+                                <org.eventb.core.prHypAction name="REWRITE5" org.eventb.core.prHidden="p11" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p37"/>
+                                <org.eventb.core.prHypAction name="REWRITE6" org.eventb.core.prHidden="p12" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p38"/>
+                                <org.eventb.core.prHypAction name="REWRITE7" org.eventb.core.prHidden="p25" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p39"/>
+                                <org.eventb.core.prHypAction name="REWRITE8" org.eventb.core.prHidden="p14" org.eventb.core.prHyps="" org.eventb.core.prInfHyps="p40"/>
+                                <org.eventb.core.prRule name="r2" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="type rewrites" org.eventb.core.prHyps="">
+                                    <org.eventb.core.prAnte name="'">
+                                        <org.eventb.core.prHypAction name="HIDE0" org.eventb.core.prHyps="p41"/>
+                                        <org.eventb.core.prHypAction name="HIDE1" org.eventb.core.prHyps="p42"/>
+                                        <org.eventb.core.prHypAction name="HIDE2" org.eventb.core.prHyps="p43"/>
+                                        <org.eventb.core.prHypAction name="HIDE3" org.eventb.core.prHyps="p44"/>
+                                        <org.eventb.core.prHypAction name="HIDE4" org.eventb.core.prHyps="p45"/>
+                                        <org.eventb.core.prHypAction name="HIDE5" org.eventb.core.prHyps="p46"/>
+                                        <org.eventb.core.prRule name="r3" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="∧ goal" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="">
+                                            <org.eventb.core.prAnte name="'" org.eventb.core.prGoal="p47">
+                                                <org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p47" org.eventb.core.prHyps="p24,p17,p19,p21,p9,p6,p20,p13,p2,p10,p16,p7,p23,p4,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40">
+                                                    <org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+                                                </org.eventb.core.prRule>
+                                            </org.eventb.core.prAnte>
+                                            <org.eventb.core.prAnte name="(" org.eventb.core.prGoal="p48">
+                                                <org.eventb.core.prRule name="r5" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="functional goal" org.eventb.core.prGoal="p48" org.eventb.core.prHyps="p20"/>
+                                            </org.eventb.core.prAnte>
+                                            <org.eventb.core.prAnte name=")" org.eventb.core.prGoal="p49">
+                                                <org.eventb.core.prRule name="r4" org.eventb.core.confidence="1000" org.eventb.core.prDisplay="ML" org.eventb.core.prGoal="p49" org.eventb.core.prHyps="p24,p17,p19,p21,p9,p6,p20,p13,p2,p10,p16,p7,p23,p4,p26,p27,p28,p29,p30,p31,p32,p33,p34,p35,p36,p37,p38,p39,p40">
+                                                    <org.eventb.core.prString name=".arg" org.eventb.core.prSValue="0;1:500"/>
+                                                </org.eventb.core.prRule>
+                                            </org.eventb.core.prAnte>
+                                        </org.eventb.core.prRule>
+                                    </org.eventb.core.prAnte>
+                                </org.eventb.core.prRule>
+                            </org.eventb.core.prAnte>
+                        </org.eventb.core.prRule>
+                    </org.eventb.core.prAnte>
+                    <org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+                </org.eventb.core.prRule>
+            </org.eventb.core.prAnte>
+            <org.eventb.core.prString name=".pos" org.eventb.core.prSValue=""/>
+        </org.eventb.core.prRule>
+        <org.eventb.core.prIdent name="BLUE" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.prIdent name="COL_CNT" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prIdent name="EMPTY" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.prIdent name="PLAYER_1" org.eventb.core.type="PLAYERS"/>
+        <org.eventb.core.prIdent name="PLAYER_2" org.eventb.core.type="PLAYERS"/>
+        <org.eventb.core.prIdent name="RED" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.prIdent name="ROW_CNT" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prIdent name="WIN_CNT" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prIdent name="board" org.eventb.core.type="ℙ(ℤ×ℤ×COLORS)"/>
+        <org.eventb.core.prIdent name="col" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.prIdent name="current_player" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.prIdent name="field" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+        <org.eventb.core.prIdent name="fieldcell" org.eventb.core.type="ℤ×ℤ"/>
+        <org.eventb.core.prIdent name="hline" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.prIdent name="previous_player" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.prIdent name="row" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.prIdent name="vline" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.prIdent name="winner" org.eventb.core.type="COLORS"/>
+        <org.eventb.core.prIdent name="x" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prIdent name="x2" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prIdent name="y" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prIdent name="y2" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.prPred name="p33" org.eventb.core.predicate="(∃c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col∧¬board(c ↦ r)=EMPTY∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))⇒¬winner=EMPTY"/>
+        <org.eventb.core.prPred name="p37" org.eventb.core.predicate="¬vline=EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row∧board(c ↦ r)=board(c ↦ r+1)∧board(c ↦ r)=board(c ↦ r+2)∧board(c ↦ r)=board(c ↦ r+3))"/>
+        <org.eventb.core.prPred name="p41" org.eventb.core.predicate="win∈BOOL">
+            <org.eventb.core.prIdent name="win" org.eventb.core.type="BOOL"/>
+        </org.eventb.core.prPred>
+        <org.eventb.core.prPred name="p38" org.eventb.core.predicate="¬vline=EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c ↦ r+1∈dom(board)∧(board(c ↦ r)=board(c ↦ r+1)⇒c ↦ r+2∈dom(board)∧(board(c ↦ r)=board(c ↦ r+2)⇒c ↦ r+3∈dom(board))))"/>
+        <org.eventb.core.prPred name="p31" org.eventb.core.predicate="¬RED=BLUE"/>
+        <org.eventb.core.prPred name="p0" org.eventb.core.predicate="x ↦ y∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧x2 ↦ y2∈dom(board)"/>
+        <org.eventb.core.prPred name="p42" org.eventb.core.predicate="winner∈COLORS"/>
+        <org.eventb.core.prPred name="p32" org.eventb.core.predicate="¬current_player=previous_player"/>
+        <org.eventb.core.prPred name="p47" org.eventb.core.predicate="x ↦ y∈dom(board)"/>
+        <org.eventb.core.prPred name="p6" org.eventb.core.predicate="col=1 ‥ COL_CNT"/>
+        <org.eventb.core.prPred name="p7" org.eventb.core.predicate="y∈row"/>
+        <org.eventb.core.prPred name="p8" org.eventb.core.predicate="(∃c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col∧board(c ↦ r)≠EMPTY∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))⇒winner≠EMPTY"/>
+        <org.eventb.core.prPred name="p28" org.eventb.core.predicate="COLORS={EMPTY,RED,BLUE}"/>
+        <org.eventb.core.prPred name="p11" org.eventb.core.predicate="vline≠EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row∧board(c ↦ r)=board(c ↦ r+1)∧board(c ↦ r)=board(c ↦ r+2)∧board(c ↦ r)=board(c ↦ r+3))"/>
+        <org.eventb.core.prPred name="p12" org.eventb.core.predicate="vline≠EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧r+3∈row⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c ↦ r+1∈dom(board)∧(board(c ↦ r)=board(c ↦ r+1)⇒c ↦ r+2∈dom(board)∧(board(c ↦ r)=board(c ↦ r+2)⇒c ↦ r+3∈dom(board))))"/>
+        <org.eventb.core.prPred name="p16" org.eventb.core.predicate="x∈col"/>
+        <org.eventb.core.prPred name="p17" org.eventb.core.predicate="COL_CNT=7"/>
+        <org.eventb.core.prPred name="p18" org.eventb.core.predicate="partition(PLAYERS,{PLAYER_1},{PLAYER_2})"/>
+        <org.eventb.core.prPred name="p40" org.eventb.core.predicate="¬winner=EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))"/>
+        <org.eventb.core.prPred name="p20" org.eventb.core.predicate="board∈col × row → COLORS"/>
+        <org.eventb.core.prPred name="p48" org.eventb.core.predicate="board∈ℤ × ℤ ⇸ COLORS"/>
+        <org.eventb.core.prPred name="p35" org.eventb.core.predicate="¬hline=EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))"/>
+        <org.eventb.core.prPred name="p30" org.eventb.core.predicate="¬EMPTY=BLUE"/>
+        <org.eventb.core.prPred name="p24" org.eventb.core.predicate="ROW_CNT=6"/>
+        <org.eventb.core.prPred name="p25" org.eventb.core.predicate="winner≠EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))"/>
+        <org.eventb.core.prPred name="p27" org.eventb.core.predicate="¬PLAYER_1=PLAYER_2"/>
+        <org.eventb.core.prPred name="p26" org.eventb.core.predicate="PLAYERS={PLAYER_1,PLAYER_2}"/>
+        <org.eventb.core.prPred name="p45" org.eventb.core.predicate="hline∈COLORS"/>
+        <org.eventb.core.prPred name="p29" org.eventb.core.predicate="¬EMPTY=RED"/>
+        <org.eventb.core.prPred name="p1" org.eventb.core.predicate="hline≠EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))"/>
+        <org.eventb.core.prPred name="p2" org.eventb.core.predicate="field=col × row"/>
+        <org.eventb.core.prPred name="p3" org.eventb.core.predicate="partition(COLORS,{EMPTY},{RED},{BLUE})"/>
+        <org.eventb.core.prPred name="p46" org.eventb.core.predicate="vline∈COLORS"/>
+        <org.eventb.core.prPred name="p4" org.eventb.core.predicate="y2∈row"/>
+        <org.eventb.core.prPred name="p5" org.eventb.core.predicate="hline≠EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))"/>
+        <org.eventb.core.prPred name="p36" org.eventb.core.predicate="¬hline=EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))"/>
+        <org.eventb.core.prPred name="p9" org.eventb.core.predicate="row=1 ‥ ROW_CNT"/>
+        <org.eventb.core.prPred name="p10" org.eventb.core.predicate="winner=EMPTY⇒vline=EMPTY∧hline=EMPTY"/>
+        <org.eventb.core.prPred name="p13" org.eventb.core.predicate="fieldcell∈col × row"/>
+        <org.eventb.core.prPred name="p14" org.eventb.core.predicate="winner≠EMPTY⇒(∀r⦂ℤ,c⦂ℤ·r∈row∧c∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)=winner∧c+3∈col⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board)))))"/>
+        <org.eventb.core.prPred name="p15" org.eventb.core.predicate="current_player≠previous_player"/>
+        <org.eventb.core.prPred name="p49" org.eventb.core.predicate="x2 ↦ y2∈dom(board)"/>
+        <org.eventb.core.prPred name="p19" org.eventb.core.predicate="WIN_CNT=4"/>
+        <org.eventb.core.prPred name="p39" org.eventb.core.predicate="¬winner=EMPTY⇒(∃r⦂ℤ,c⦂ℤ·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))"/>
+        <org.eventb.core.prPred name="p21" org.eventb.core.predicate="finite(PLAYERS)"/>
+        <org.eventb.core.prPred name="p34" org.eventb.core.predicate="∀c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(¬board(c ↦ r)=EMPTY⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))"/>
+        <org.eventb.core.prPred name="p22" org.eventb.core.predicate="∀c⦂ℤ,r⦂ℤ·c∈col∧c+3∈col⇒c ↦ r∈dom(board)∧board∈ℤ × ℤ ⇸ COLORS∧(board(c ↦ r)≠EMPTY⇒c+1 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+1 ↦ r)⇒c+2 ↦ r∈dom(board)∧(board(c ↦ r)=board(c+2 ↦ r)⇒c+3 ↦ r∈dom(board))))"/>
+        <org.eventb.core.prPred name="p23" org.eventb.core.predicate="x2∈col"/>
+        <org.eventb.core.prPred name="p43" org.eventb.core.predicate="current_player∈COLORS"/>
+        <org.eventb.core.prPred name="p44" org.eventb.core.predicate="previous_player∈COLORS"/>
+        <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+        <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
+        <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+        <org.eventb.core.prReas name="r5" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
+        <org.eventb.core.prReas name="r4" org.eventb.core.prRID="com.clearsy.atelierb.provers.core.externalML:1"/>
+        <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
     </org.eventb.core.prProof>
 </org.eventb.core.prFile>

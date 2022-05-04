@@ -14,6 +14,27 @@
  *
  ******************************************************************************/
 
+/**
+ * Added functions for easer debugging
+ */
+var debugSpace = "";
+
+function debugCall() {
+	debugSpace += " ";
+}
+
+function debugBack() {
+	debugSpace = debugSpace.substring(1);
+}
+
+function debug(message) {
+	console.log(debugSpace + message);
+}
+
+/**
+ * End of debugging functions
+ */
+
 (function() {
 
     var prefix = "$B";
@@ -2588,20 +2609,20 @@
      *   the image of E defined by f
      */
     var functionImage = function( f, E ) {
-	if ( !( typeof f === "object" ) ) {
-            return;
-	}
-	if ( f.concrete ) { // case set extension
-            return f.getImage( E );
-	} else if ( f.functionImage ) { // case defined fImage
-            if( E instanceof Pair ) {
-		var argArray = [];
-                E.toArguments( argArray );
-		return f.functionImage.apply( null, argArray );
-            } else {
-		return f.functionImage( E );
-            }
-	}
+		if ( !( typeof f === "object" ) ) {
+				return;
+		}
+		if ( f.concrete ) { // case set extension
+			return f.getImage( E );
+		} else if ( f.functionImage ) { // case defined fImage
+			if( E instanceof Pair ) {
+				var argArray = [];
+				E.toArguments( argArray );
+				return f.functionImage.apply( null, argArray );
+			} else {
+				return f.functionImage( E );
+			}
+		}
     };
 
 

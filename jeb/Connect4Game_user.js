@@ -13,23 +13,23 @@ var get_y = function( eventId ) {
 };
 
 jeb.animator.init = function() {
-$anim.canvas.width = 440;
-$anim.canvas.height = 390;
-$anim.canvas.style.display = '';
+    $anim.canvas.width = 440;
+    $anim.canvas.height = 390;
+    $anim.canvas.style.display = '';
 }
-
+    
 jeb.animator.draw = function() {
- //ADD ANIMATION HERE
- $anim.clearRect(0,0,$anim.canvas.width,$anim.canvas.height);
+    //ADD ANIMATION HERE
+    $anim.clearRect(0,0,$anim.canvas.width,$anim.canvas.height);
 
- $var.board.value.forEach(element => {
-     let circle = new Circle(element.right);
-     
-     circle.draw(
-         $anim,
-         20 + element.left.left * 50,
-         20 + element.left.right * 50,
-     );
- });
+    $var.board.value.forEach(element => {
+        let circle = new Circle(element.right);
+        
+        circle.draw(
+            $anim,
+            20 + element.left.left * 50,
+            20 + element.left.right * 50,
+        );
+    });
 }
 
