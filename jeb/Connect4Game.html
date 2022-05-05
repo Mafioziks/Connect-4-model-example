@@ -200,15 +200,21 @@ Max try arguments: <input type='text' style='width:60px' id='jeb.ui.MAX_TRY_ARGU
 </tr>
 <tr>
 <td name='invariantCheckbox' style='display:none'><input type='checkbox'></td>
-<td class='labelDotted'>invWinnerRow</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $inv.i16)' onmouseout='jeb.ui.hideTip(event)'>winner≠EMPTY⇒(∃r,c·r∈row∧c∈col∧board(c ↦ r)=winner∧c+3∈col∧board(c ↦ r)=board(c+1 ↦ r)∧board(c ↦ r)=board(c+2 ↦ r)∧board(c ↦ r)=board(c+3 ↦ r))</td>
+<td class='labelDotted'>winner</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $inv.i16)' onmouseout='jeb.ui.hideTip(event)'>winner=EMPTY⇒vline=EMPTY∧hline=EMPTY</td>
 <td class='formula' id='$inv.i16' align='center'></td>
 </tr>
 <tr>
 <td name='invariantCheckbox' style='display:none'><input type='checkbox'></td>
-<td class='labelDotted'>winner</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $inv.i17)' onmouseout='jeb.ui.hideTip(event)'>winner=EMPTY⇒vline=EMPTY∧hline=EMPTY</td>
+<td class='labelDotted'>gameIsInProgress</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $inv.i17)' onmouseout='jeb.ui.hideTip(event)'>winner=EMPTY</td>
 <td class='formula' id='$inv.i17' align='center'></td>
+</tr>
+<tr>
+<td name='invariantCheckbox' style='display:none'><input type='checkbox'></td>
+<td class='labelDotted'>boardIsNotFull</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $inv.i18)' onmouseout='jeb.ui.hideTip(event)'>∃c·c∈col∧board(c ↦ 1)=EMPTY</td>
+<td class='formula' id='$inv.i18' align='center'></td>
 </tr>
 <tr>
 <td name='invariantCheckbox' style='display:none'></td>
@@ -377,14 +383,29 @@ Max try arguments: <input type='text' style='width:60px' id='jeb.ui.MAX_TRY_ARGU
 <td></td>
 </tr>
 <tr eventId='$evt.e2' name='guard'>
-<td class='label'>grdLineH :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e2.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>∃r·r∈row∧(∃s,e·s∈col∧e∈col∧board(s ↦ r)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(s ↦ r)=board(i ↦ r)))</td>
+<td class='label'>grdNotHappened :</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e2.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>hline=EMPTY</td>
 <td id='$evt.e2.guard.g1' class='formula'></td>
+</tr>
+<tr eventId='$evt.e2' name='guard'>
+<td class='label'>grdLineH :</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e2.guard.g2)' onmouseout='jeb.ui.hideTip(event)'>∃r·r∈row∧(∃s,e·s∈col∧e∈col∧board(s ↦ r)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(s ↦ r)=board(i ↦ r)))</td>
+<td id='$evt.e2.guard.g2' class='formula'></td>
 </tr>
 <tr eventId='$evt.e2' name='action'>
 <td class='label'>setWinLine :</td>
 <td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e2.action.a1)' onmouseout='jeb.ui.hideTip(event)'>hline ≔ previous_player</td>
 <td id='$evt.e2.action.a1' align='center'></td>
+</tr>
+<tr eventId='$evt.e2' name='action'>
+<td class='label'>winTrue :</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e2.action.a2)' onmouseout='jeb.ui.hideTip(event)'>win ≔ bool(⊤)</td>
+<td id='$evt.e2.action.a2' align='center'></td>
+</tr>
+<tr eventId='$evt.e2' name='action'>
+<td class='label'>setWin :</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e2.action.a3)' onmouseout='jeb.ui.hideTip(event)'>winner ≔ previous_player</td>
+<td id='$evt.e2.action.a3' align='center'></td>
 </tr>
 <tr>
 <td><input class='large' id='$evt.e3' type='button' value='win_vline' onclick='jeb.scheduler.onEventClick($evt.e3)'></td>
@@ -398,40 +419,29 @@ Max try arguments: <input type='text' style='width:60px' id='jeb.ui.MAX_TRY_ARGU
 <td></td>
 </tr>
 <tr eventId='$evt.e3' name='guard'>
-<td class='label'>grdLineH :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e3.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>∃c·c∈col∧(∃s,e·s∈row∧e∈row∧board(c ↦ s)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(c ↦ s)=board(c ↦ i)))</td>
+<td class='label'>grdNotHappened :</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e3.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>vline=EMPTY</td>
 <td id='$evt.e3.guard.g1' class='formula'></td>
+</tr>
+<tr eventId='$evt.e3' name='guard'>
+<td class='label'>grdLineH :</td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e3.guard.g2)' onmouseout='jeb.ui.hideTip(event)'>∃c·c∈col∧(∃s,e·s∈row∧e∈row∧board(c ↦ s)≠EMPTY∧e − s+1=WIN_CNT∧(∀i·i∈s ‥ e∧board(c ↦ s)=board(c ↦ i)))</td>
+<td id='$evt.e3.guard.g2' class='formula'></td>
 </tr>
 <tr eventId='$evt.e3' name='action'>
 <td class='label'>setWinLine :</td>
 <td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e3.action.a1)' onmouseout='jeb.ui.hideTip(event)'>vline ≔ previous_player</td>
 <td id='$evt.e3.action.a1' align='center'></td>
 </tr>
-<tr>
-<td><input class='large' id='$evt.e4' type='button' value='win_event' onclick='jeb.scheduler.onEventClick($evt.e4)'></td>
-<td>
-<input type='checkbox' disabled id='$evt.e4.parameter' name='parameterCheckbox' onclick='jeb.ui.updateEvent(this.id)'> <label for='$evt.e4.parameter'>Parameters</label> |
-<input type='checkbox'  id='$evt.e4.guard' name='guardCheckbox' onclick='jeb.ui.updateEvent(this.id)'> <label for='$evt.e4.guard'>Guards</label> |
-<input type='checkbox'  id='$evt.e4.action' name='actionCheckbox' onclick='jeb.ui.updateEvent(this.id)'> <label for='$evt.e4.action'>Actions</label> 
-<label name='probability' > | <input class='text' id='$evt.e4.probability.input' value = '1' onkeypress='$evt.e4.probability=parseFloat(this.value)' onblur='$evt.e4.probability=parseFloat(this.value)'> Probability </label>
-<!--TODO ADD PROBA HERE-->
-</td>
-<td></td>
-</tr>
-<tr eventId='$evt.e4' name='guard'>
-<td class='label'>grd :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e4.guard.g1)' onmouseout='jeb.ui.hideTip(event)'>hline≠EMPTY∨vline≠EMPTY</td>
-<td id='$evt.e4.guard.g1' class='formula'></td>
-</tr>
-<tr eventId='$evt.e4' name='action'>
+<tr eventId='$evt.e3' name='action'>
 <td class='label'>winTrue :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e4.action.a1)' onmouseout='jeb.ui.hideTip(event)'>win ≔ bool(⊤)</td>
-<td id='$evt.e4.action.a1' align='center'></td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e3.action.a2)' onmouseout='jeb.ui.hideTip(event)'>win ≔ bool(⊤)</td>
+<td id='$evt.e3.action.a2' align='center'></td>
 </tr>
-<tr eventId='$evt.e4' name='action'>
+<tr eventId='$evt.e3' name='action'>
 <td class='label'>setWin :</td>
-<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e4.action.a2)' onmouseout='jeb.ui.hideTip(event)'>winner ≔ previous_player</td>
-<td id='$evt.e4.action.a2' align='center'></td>
+<td class='formula' onmouseover='jeb.ui.showTip(event, $evt.e3.action.a3)' onmouseout='jeb.ui.hideTip(event)'>winner ≔ previous_player</td>
+<td id='$evt.e3.action.a3' align='center'></td>
 </tr>
 </table>
 

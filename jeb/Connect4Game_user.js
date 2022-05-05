@@ -31,5 +31,16 @@ jeb.animator.draw = function() {
             20 + element.left.right * 50,
         );
     });
+
+    if ($B.notEqual($var.winner.value, $cst.EMPTY)) {
+        $anim.fillStyle = "#FF0000";
+        if ($B.equal($cst.BLUE, $var.winner.value)) {
+            $anim.fillStyle = "#0000FF";
+        }
+        $anim.font = 'bold 25px Arial';
+        $anim.fillText("Winner is " + $var.winner.value, 50, 20 + ($cst.ROW_CNT * 1 + 1) * 50);
+        $anim.fillStyle = "#000000";
+    }
+
 }
 
