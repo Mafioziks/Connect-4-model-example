@@ -1,6 +1,6 @@
 /******************************************************************************
  * MACHINE [Connect4Game]
- * Generated at 2022/05/05 17:39:35
+ * Generated at 2022/06/15 13:56:35
  * JeB translator version 0.6.5
  ******************************************************************************/
 
@@ -77,7 +77,7 @@ $inv.i11.predicate = function() {
 
 $inv.i12 = new jeb.lang.Invariant( '$inv.i12', 'lineOhterWay' );
 $inv.i12.predicate = function() {
-    return $B.implication($B.exists(function(c, r){return $B.and($B.belong(c, $var.col.value), $B.belong($B.plus(c, $B('3')), $var.col.value), $B.notEqual($B.functionImage($var.board.value, $B.Pair(c, r)), $cst.EMPTY), $B.equal($B.functionImage($var.board.value, $B.Pair(c, r)), $B.functionImage($var.board.value, $B.Pair($B.plus(c, $B('1')), r))), $B.equal($B.functionImage($var.board.value, $B.Pair(c, r)), $B.functionImage($var.board.value, $B.Pair($B.plus(c, $B('2')), r))), $B.equal($B.functionImage($var.board.value, $B.Pair(c, r)), $B.functionImage($var.board.value, $B.Pair($B.plus(c, $B('3')), r))));}, [$var.col.value, $B.EmptySet]), $B.notEqual($var.winner.value, $cst.EMPTY));
+    return $B.implication($B.exists(function(c, r){return $B.and($B.belong(r, $var.row.value), $B.belong(c, $var.col.value), $B.belong($B.plus(c, $B('3')), $var.col.value), $B.notEqual($B.functionImage($var.board.value, $B.Pair(c, r)), $cst.EMPTY), $B.equal($B.functionImage($var.board.value, $B.Pair(c, r)), $B.functionImage($var.board.value, $B.Pair($B.plus(c, $B('1')), r))), $B.equal($B.functionImage($var.board.value, $B.Pair(c, r)), $B.functionImage($var.board.value, $B.Pair($B.plus(c, $B('2')), r))), $B.equal($B.functionImage($var.board.value, $B.Pair(c, r)), $B.functionImage($var.board.value, $B.Pair($B.plus(c, $B('3')), r))));}, [$var.col.value, $var.row.value]), $B.notEqual($var.winner.value, $cst.EMPTY));
 };
 
 $inv.i13 = new jeb.lang.Invariant( '$inv.i13', 'defineHLineMade' );

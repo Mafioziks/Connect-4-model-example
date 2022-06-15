@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.poFile org.eventb.core.poStamp="5">
-    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="5">
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="0">
         <org.eventb.core.poIdentifier name="PLAYERS" org.eventb.core.type="ℙ(PLAYERS)"/>
         <org.eventb.core.poIdentifier name="COL" org.eventb.core.type="ℙ(COL)"/>
         <org.eventb.core.poIdentifier name="ROW" org.eventb.core.type="ℙ(ROW)"/>
@@ -14,7 +14,7 @@
         <org.eventb.core.poIdentifier name="WIN_CNT" org.eventb.core.type="ℤ"/>
         <org.eventb.core.poIdentifier name="EMPTY" org.eventb.core.type="COLORS"/>
     </org.eventb.core.poPredicateSet>
-    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Connect-4-model-example/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="5">
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Connect-4-model-example/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
         <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ROW_CNT=6" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#,"/>
         <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="COL_CNT=7" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#-"/>
         <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="WIN_CNT=4" org.eventb.core.source="/Connect-4-model-example/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#\/"/>
